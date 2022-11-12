@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Body from './components/Body'
 import Footer from './components/Footer'
 import sectionData from './sectionData'
+import Slideshow from './components/Slideshow'
 
 function App() {
 
@@ -16,14 +17,8 @@ function App() {
         <Header />
         <Navbar />
       </div>
-      <div 
-        className='slogan_container'
-        style={{
-          backgroundImage: `url('/images/Savory5.png')`,
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
-      }}>
+      <Slideshow />
+      <div className='slogan_container'>
         <p className='slogan'>Authentic housemade American desserts,<br/>pastries, and bread in the heart of Larnaca</p>
       </div>
       {bodyHtml}

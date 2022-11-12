@@ -3,27 +3,27 @@ const sectionData = [
         title: "Savory Goodness",
         images: [
         {
-            path: './images/Savory1.png',
+            path: '/images/Savory1.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory2.png',
+            path: '/images/Savory2.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory3.png',
+            path: '/images/Savory3.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory4.png',
+            path: '/images/Savory4.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory5.png',
+            path: '/images/Savory5.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory6.png',
+            path: '/images/Savory6.png',
             alt: 'fresh-baked croissants'
         }
         ]
@@ -32,27 +32,27 @@ const sectionData = [
         title: "Sweet Treats",
         images: [
         {
-            path: './images/Savory1.png',
+            path: '/images/Savory1.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory2.png',
+            path: '/images/Savory2.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory3.png',
+            path: '/images/Savory3.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory4.png',
+            path: '/images/Savory4.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory5.png',
+            path: '/images/Savory5.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory6.png',
+            path: '/images/Savory6.png',
             alt: 'fresh-baked croissants'
         }
         ]
@@ -61,27 +61,27 @@ const sectionData = [
         title: "Fresh Breads",
         images: [
         {
-            path: './images/Savory1.png',
+            path: '/images/Savory1.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory2.png',
+            path: '/images/Savory2.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory3.png',
+            path: '/images/Savory3.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory4.png',
+            path: '/images/Savory4.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory5.png',
+            path: '/images/Savory5.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory6.png',
+            path: '/images/Savory6.png',
             alt: 'fresh-baked croissants'
         }
         ]
@@ -90,15 +90,15 @@ const sectionData = [
         title: "Our Story",
         images: [
         {
-            path: './images/Savory1.png',
+            path: '/images/Savory1.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory2.png',
+            path: '/images/Savory2.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory3.png',
+            path: '/images/Savory3.png',
             alt: 'fresh-baked croissants'
         },
         {
@@ -106,11 +106,11 @@ const sectionData = [
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory5.png',
+            path: '/images/Savory5.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: './images/Savory6.png',
+            path: '/images/Savory6.png',
             alt: 'fresh-baked croissants'
         }
         ]

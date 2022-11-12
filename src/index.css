@@ -59,6 +59,12 @@ body {
   font-size: 2.2em;
   text-align: center;
   line-height: 50px;
+  position: absolute;
+  top: 260px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .slogan {
@@ -129,4 +135,82 @@ body {
 .copyright {
   margin-top: 20px;
   margin-bottom: 0px;
+}
+
+#slider {
+  width: 100%;
+}
+ul {
+  list-style: outside none none;
+  position: relative;
+  height: 500px;
+  padding: 0px 0px;
+}
+ul:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  content: "";
+}
+li {
+  position: absolute;
+}
+.img1 {
+  left: 1200px;
+}
+.img2 {
+  left: 0px;
+}
+.img3 {
+  left: 120px;
+}
+.img4 {
+  left: 240px;
+}
+.img5 {
+  left: 360px;
+}
+.animation {
+  animation: 30s linear 60s infinite running cycle1; /* small delay added for image to be loaded, this can be ignored if image is preloaded */
+}
+@keyframes cycle1 {
+  0% {
+    left: -600px;
+    opacity: 0;
+  }
+  0.01% {
+    left: -600px;
+    opacity: 1;
+  }
+  99.99% {
+    left: 100%;
+    opacity: 1;
+  }
+  100% {
+    left: 1200px;
+    opacity: 0;
+  }
+}
+.animation[class*='img'] {
+  left: 2000px;
+}
+.animation.img1 {
+  animation-delay: 0s;
+}
+.animation.img2 {
+  animation-delay: 8s;
+}
+.animation.img3 {
+  animation-delay: 16s;
+}
+.animation.img4 {
+  animation-delay: 24s;
+}
+.animation.img5 {
+  animation-delay: 32s;
+}
+ul.overflow-hidden {
+  overflow: hidden;
 }
