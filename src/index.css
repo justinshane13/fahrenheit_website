@@ -1,13 +1,132 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Lato;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header_container {
+  height: 200px;
+  background: #2bd5db49;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.breadNav {
+  margin-right: 55px;
+  text-decoration: none;
+  color: black;
+}
+
+.sweetNav {
+  margin-right: 55px;
+  text-decoration: none;
+  color: black;
+}
+
+.savoryNav {
+  margin-right: 55px;
+  text-decoration: none;
+  color: black;
+}
+
+.aboutNav {
+  margin-right: 55px;
+  text-decoration: none;
+  color: black;
+}
+
+.pressNav {
+  text-decoration: none;
+  color: black;
+}
+
+.slogan_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  font-size: 2.2em;
+  text-align: center;
+  line-height: 50px;
+}
+
+.slogan {
+  background: #FFFFFFAA;
+  padding: 20px;
+}
+
+.body_title {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.imagesContainer {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  row-gap: 40px;
+  column-gap: 40px;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2bd5db49;
+  padding: 30px;
+}
+
+.hours_title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+.hours_weekdays {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.hours_weekends {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.address {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.phone_number {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.instagram {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.copyright {
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
