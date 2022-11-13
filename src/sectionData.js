@@ -1,6 +1,6 @@
 const sectionData = [
     {
-        title: "Savory Goodness",
+        title: "Savory Bites",
         images: [
         {
             path: '/images/Savory1.png',

@@ -19,7 +19,7 @@ function App() {
       </div>
       <Slideshow />
       <div className='slogan_container'>
-        <p className='slogan'>Authentic housemade American desserts,<br/>pastries, and bread in the heart of Larnaca</p>
+        <p className='slogan'>Authentic housemade American desserts, pastries, and bread in the heart of Larnaca</p>
       </div>
       {bodyHtml}
       <Footer />
