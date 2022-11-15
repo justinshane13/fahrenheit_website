@@ -13,15 +13,18 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='header_container'>
-        <Header />
-        <Navbar />
-      </div>
-      <Slideshow />
-      <div className='slogan_container'>
-        <p className='slogan'>Authentic housemade American desserts, pastries, and bread in the heart of Larnaca</p>
+      <Header />
+      <Navbar />
+      <div className='header_top'>
+        <img src='/images/Header_Dark.png' alt='several croissants on a baking tray' className='header_img' />
+        <div className='slogan_container'>
+          <p className='slogan'>Authentic.</p>
+          <p className='slogan'>Housemade.</p>
+          <p className='slogan'>American desserts, pastries, and bread in the heart of Larnaca.</p>
+        </div>
       </div>
       {bodyHtml}
+      <Slideshow />
       <Footer />
     </div>
   );

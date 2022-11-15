@@ -1,25 +1,71 @@
 body {
   margin: 0;
   font-family: Lato;
-}
-
-.header_container {
-  height: 200px;
-  background: #2bd5db49;
+  min-height: 100%;
 }
 
 .header {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  z-index: 100;
 }
 
 .navbar {
   display: flex;
   justify-content: center;
-  padding-top: 35px;
+  padding: 20px;
   font-size: 1.5em;
   font-weight: 300;
+  background: #FFFFFF;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0px 30px 20px -20px #00000018;
+  margin: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+
+.header_top {
+  position: relative;
+}
+
+.header_img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  margin-top: 0px;
+}
+
+.slogan_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 700px;
+  font-size: 2.4em;
+  line-height: 50px;
+  position: absolute;
+  top: 160px;
+  left: 0;
+  right: 0;
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+.slogan {
+  color: white;
+  text-shadow: 1px 1px #000000;
+  letter-spacing: .25rem;
+  text-align: left;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 .breadNav {
@@ -49,29 +95,6 @@ body {
 .pressNav {
   text-decoration: none;
   color: black;
-}
-
-.slogan_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  max-width: 600px;
-  height: 400px;
-  font-size: 2.2em;
-  text-align: center;
-  line-height: 50px;
-  position: absolute;
-  top: 260px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.slogan {
-  background: #FFFFFFAA;
-  padding: 20px;
 }
 
 .body_title {
@@ -367,7 +390,6 @@ ul.overflow-hidden {
   }
   .slogan_container {
     font-size: 20px;
-    top: 220px;
   }
   .slogan {
     padding: 10px;
