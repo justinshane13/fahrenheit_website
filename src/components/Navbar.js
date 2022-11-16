@@ -23,11 +23,11 @@ const Navbar = () => {
 
     return (
         <div className={navClassName}>
-            <a href="/" className='breadNav'>bread</a>
-            <a href="/" className='sweetNav'>sweet</a>
-            <a href="/" className='savoryNav'>savory</a>
-            <a href="/" className='aboutNav'>about</a>
-            <a href="/" className='pressNav'>press</a>
+            <a href="/" className='breadNav'>BREAD</a>
+            <a href="/" className='sweetNav'>SWEET</a>
+            <a href="/" className='savoryNav'>SAVORY</a>
+            <a href="/" className='aboutNav'>ABOUT</a>
+            <a href="/" className='pressNav'>PRESS</a>
         </div>
     )
 }

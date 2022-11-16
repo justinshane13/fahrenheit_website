@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 20px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 300;
   background: #FFFFFF;
   width: 100%;
@@ -26,11 +26,45 @@ body {
   margin: 0;
 }
 
+.breadNav {
+  margin-right: 55px;
+  text-decoration: none;
+  color: black;
+}
+
+.sweetNav {
+  margin-right: 55px;
+  text-decoration: none;
+  color: black;
+}
+
+.savoryNav {
+  margin-right: 55px;
+  text-decoration: none;
+  color: black;
+}
+
+.aboutNav {
+  margin-right: 55px;
+  text-decoration: none;
+  color: black;
+}
+
+.pressNav {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+
 .sticky {
   position: sticky;
   top: 0;
 }
-
 
 .header_top {
   position: relative;
@@ -63,38 +97,52 @@ body {
   text-shadow: 1px 1px #000000;
   letter-spacing: .25rem;
   text-align: left;
+  font-weight: 700;
   padding: 0;
   margin-top: 0px;
   margin-bottom: 40px;
 }
 
-.breadNav {
-  margin-right: 55px;
-  text-decoration: none;
-  color: black;
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 75px;
 }
 
-.sweetNav {
-  margin-right: 55px;
-  text-decoration: none;
-  color: black;
+.review_img {
+  width: 22%;
+  border-radius: 50%;
+  border-top: 1.5px solid rgba(59, 146, 216, 0.502);
+  border-right: 1.5px solid white;
+  border-bottom: 1.5px solid rgba(132, 87, 47, 0.502);;
+  border-left: 1.5px solid white;
+  padding: 10px;
 }
 
-.savoryNav {
-  margin-right: 55px;
-  text-decoration: none;
-  color: black;
+.review_body {
+  width: 50%;
 }
 
-.aboutNav {
-  margin-right: 55px;
-  text-decoration: none;
-  color: black;
+.review_text {
+  color: gray;
+  line-height: 20px;
+  letter-spacing: .05rem;
 }
 
-.pressNav {
-  text-decoration: none;
-  color: black;
+.reviewer {
+  margin-top: 30px;
+  color: #333333;
+  letter-spacing: .05rem;
+}
+
+hr {
+  background-color: lightgray;
+  width: 75%
 }
 
 .body_title {
@@ -103,6 +151,12 @@ body {
   padding-top: 50px;
   font-size: 2em;
   font-weight: 300;
+}
+
+.categories {
+  background-color: #9F7E69;
+  padding: 50px;
+  margin-top: 100px;
 }
 
 .image {
