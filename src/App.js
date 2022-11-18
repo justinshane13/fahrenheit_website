@@ -4,6 +4,7 @@ import Body from './components/Body'
 import Footer from './components/Footer'
 import Slideshow from './components/Slideshow'
 import Reviews from './components/Reviews'
+import Landing from './components/Landing'
 import sectionData from './sectionData'
 
 function App() {
@@ -16,19 +17,15 @@ function App() {
     <div className='App'>
       <Header />
       <Navbar />
-      <div className='header_top'>
-        <div className='landing_bread_container'>
-          <img className='landing_bread_img1' src='/images/landing_bread4.jpg' alt='several croissants on a baking tray' />
-          <img className='landing_bread_img2' src='/images/landing_bread5.jpg' alt='several croissants on a baking tray' />
-          <img className='landing_bread_img3' src='/images/landing_bread6.jpg' alt='several croissants on a baking tray' />
+      <Landing />
+      <div className='intro_container'>
+        <div>
+          <p className='intro_summary'>As a family-run bakery, we place a premium on quality. We source the best ingredients available, and stay true to the American baking methods our head baker learned while training in San Francisco.</p>
+          <p className='intro_summary'>What we bake varies from week to week, based on which ingredients that are fresh, available, and in-season. We love to try new things, so stop by in-person to see what we're making this week.</p>
+          <p className='intro_summary'>Our guarantee is that every cookie, bagel, pastry, cake, and loaf of bread you try from us was prepared with the highest level of care.</p>
         </div>
-        <div className='slogan_container'>
-          <p className='slogan'>Authentic.</p>
-          <p className='slogan'>Housemade.</p>
-          <p className='slogan'>American desserts, pastries, and bread in the heart of Larnaca.</p>
-        </div>
+        <img src='/images/kneading_dough.jpg' alt='baker kneading dough' className='intro_image' />
       </div>
-      <h2 className='body_title'>Get to know our bakery</h2>
       <div className='categories_links'>
           <div className='category_box'>
             <a href='www.google.com'>
@@ -67,7 +64,7 @@ function App() {
         </div>
       <h2 className='body_title'>What our customers have to say</h2>
       <Reviews />
-      {bodyHtml}
+      {/* {bodyHtml} */}
       <Slideshow />
       <Footer />
     </div>

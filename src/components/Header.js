@@ -3,7 +3,8 @@
 const Header = () => {
     return (
         <div className='header'>
-            <h1>[fahrenheit logo]</h1>
+            <img src='/images/logo_placeholder2.png' alt='fahrenheit logo' className='logo'/>
+            <p>Fahrenheit Bakery</p>
         </div>
     )
 }

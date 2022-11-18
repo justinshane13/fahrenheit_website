@@ -8,11 +8,17 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   background-color: #FBFAF8;;
   z-index: 100;
+  color: #3D3A40;
+}
+
+.logo {
+  width: 96px;
 }
 
 .navbar {
@@ -21,7 +27,7 @@ body {
   padding: 20px;
   font-size: 1.2em;
   font-weight: 300;
-  background: #FBFAF8;;
+  background: #3D3A40;
   width: 100%;
   z-index: 99;
   box-shadow: 0px 30px 20px -20px #00000018;
@@ -31,30 +37,30 @@ body {
 .breadNav {
   margin-right: 55px;
   text-decoration: none;
-  color: black;
+  color: #FBFAF8;
 }
 
 .sweetNav {
   margin-right: 55px;
   text-decoration: none;
-  color: black;
+  color: #FBFAF8;
 }
 
 .savoryNav {
   margin-right: 55px;
   text-decoration: none;
-  color: black;
+  color: #FBFAF8;
 }
 
 .aboutNav {
   margin-right: 55px;
   text-decoration: none;
-  color: black;
+  color: #FBFAF8;
 }
 
 .pressNav {
   text-decoration: none;
-  color: black;
+  color: #FBFAF8;
 }
 
 .navbar a:hover {
@@ -114,6 +120,29 @@ body {
   margin-bottom: 40px;
 }
 
+.intro_container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro_summary {
+  width: 90%;
+  font-size: 18px;
+  letter-spacing: .12rem;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.intro_image {
+  width: 500px;
+}
+
 .reviews {
   display: flex;
   justify-content: space-around;
@@ -162,12 +191,11 @@ hr {
   padding-top: 50px;
   font-size: 2em;
   font-weight: 300;
+  color: #3D3A40;
 }
 
 .categories {
-  background-color: #43281C;
-  margin: 50px;
-  border-radius: 100px;
+  background-color: #3D3A40;
   padding: 50px;
 }
 
@@ -189,7 +217,7 @@ hr {
   flex-direction: column;
   margin-left: 30px;
   padding-top: 30px;
-  color: #FBFAF8;;
+  color: #FBFAF8;
   font-size: 30px;
   font-weight: 700;
   text-shadow: 1px 1px #000000;
@@ -254,7 +282,8 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #2bd5db49;
+  background: #3D3A40;
+  color: #FBFAF8;
   padding: 30px;
 }
 
