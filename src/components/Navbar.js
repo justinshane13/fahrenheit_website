@@ -17,17 +17,22 @@ const Navbar = () => {
     }, []);
 
     let navClassName = 'navbar'
-    if (scrollPosition >= 184) {
+    let logoPresent = false;
+    if (scrollPosition >= 220) {
         navClassName += ' sticky'
+        logoPresent = true
+    }
+    if (scrollPosition < 220) {
+        logoPresent = false
     }
 
     return (
         <div className={navClassName}>
+            {logoPresent && <a href='localhost:3000'><img src='/images/logo_placeholder_white.png' alt='logo' className='logo_navbar' /></a>}
             <a href="/" className='breadNav'>BREAD</a>
             <a href="/" className='sweetNav'>SWEET</a>
             <a href="/" className='savoryNav'>SAVORY</a>
             <a href="/" className='aboutNav'>ABOUT</a>
-            <a href="/" className='pressNav'>PRESS</a>
         </div>
     )
 }
