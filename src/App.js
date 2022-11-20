@@ -32,13 +32,15 @@ function App() {
         </div>
         <a href='https://www.instagram.com/fahrenheitbakery_cy/'><img src='/images/Fahrenheit_Instagram_Mockup.png' alt='fahrenheit instagram page screenshot' className='social_mockup'/></a>
       </div>
-      <h2 className='body_title'>What our customers are saying</h2>
       <Reviews />
-      <h2 className='body_title'>Learn more about Fahrenheit Bakery</h2>
+      <div className='categories_text'>
+        <p>We love to bake new things and keep our menu fresh, but we have some favorites that we think you'll love.</p>
+        <p>Check out some of our most common pastries – both sweet and savory – as well as our fresh-baked breads. Our weekly bread schedule is consistent, but we do sell out. If you see something you want, stop by soon before it's gone!</p>
+      </div>
       <div className='categories_links'>
         <a href='www.google.com'>
           <div className='category_box'>
-              <img src='/images/Savory5.png' alt='' className='categories_image' />
+              <img src='/images/Sweet2.png' alt='' className='categories_image' />
               <p className='category_link_name'>sweet</p>
           </div>
         </a>
@@ -50,13 +52,15 @@ function App() {
         </div>
         <div className='category_box'>
           <a href='www.google.com'>
-            <img src='/images/Savory5.png' alt='' className='categories_image' />
+            <img src='/images/Bread2.png' alt='' className='categories_image' />
             <p className='category_link_name'>bread</p>
           </a>
         </div>
         <div className='category_box'>
           <a href='www.google.com'>
-            <img src='/images/Savory5.png' alt='' className='categories_image' />
+            <div className='story_image_container'>
+              <img src='/images/Story2.png' alt='' className='categories_image story_image' />
+            </div>
             <p className='category_link_name'>story</p>
           </a>
         </div>
