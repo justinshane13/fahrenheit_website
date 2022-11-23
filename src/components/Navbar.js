@@ -32,7 +32,7 @@ const Navbar = () => {
             <a href="/" className='breadNav'>BREAD</a>
             <a href="/" className='sweetNav'>SWEET</a>
             <a href="/" className='savoryNav'>SAVORY</a>
-            <a href="/" className='aboutNav'>ABOUT</a>
+            <a href="/" className='aboutNav'>STORY</a>
         </div>
     )
 }

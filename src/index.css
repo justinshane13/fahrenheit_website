@@ -150,14 +150,18 @@ body {
 
 .social {
   background-color: #3D3A40;
-  padding: 100px 20px 100px 20px;
+  padding: 50px 20px 50px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 90%;
 }
 
 .social_text {
-  color: #FBFAF8;;
+  color: #FBFAF8;
   width: 500px;
   font-size: 30px;
   font-weight: 400;
@@ -233,46 +237,61 @@ hr {
   color: #3D3A40;
 }
 
-.categories_section {
+.categories_container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7192BE;
+  margin-bottom: 100px;
+  padding: 50px 20px 50px 20px;
+  border-radius: 40px;
+  width: 90%;
+}
+
+.categories_text {
+  width: 40%;
+  font-size: 22px;
+  letter-spacing: .12rem;
+  line-height: 28px;
+  font-weight: 400;
 }
 
 .categories_links {
+  width: 40%;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  row-gap: 25px;
-  column-gap: 25px;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
-  margin-bottom: 50px;
+  grid-template-columns: 200px 200px;
+  row-gap: 2px;
+  column-gap: 8px;
   font-size: 18px;
   letter-spacing: .12rem;
   line-height: 24px;
   font-weight: 300;
+  margin-left: 80px;
 }
 
-.categories_links a {
-  text-decoration: none;
+.category_link_box {
+  position: relative;
+  border-radius: 10px;
 }
 
-.category_box a {
-  text-decoration: none;
-}
-
-.category_box p {
-  text-align: center;
-  font-size: 20px;
-  padding: 0;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: #0A0410;
-  font-size: 25px;
+.category_link_name {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  color: #FBFAF8;
+  font-size: 30px;
+  font-weight: 400;
+  text-shadow: 1px 1px #000000;
+  letter-spacing: .12rem;
+  line-height: 40px;
 }
 
 .categories_image {
   width: 100%;
+  border-radius: 10px;
 }
 
 .categories_image:hover {
@@ -281,15 +300,20 @@ hr {
   transition-duration: .2s;
 }
 
-.categories_text {
-  width: 90%;
-  font-size: 18px;
-  letter-spacing: .12rem;
-  line-height: 24px;
-  font-weight: 300;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
+.box1:hover > .image1 {
+  opacity: .7;
+}
+
+.box2:hover > .image2 {
+  opacity: .7;
+}
+
+.box3:hover > .image3 {
+  opacity: .7;
+}
+
+.box4:hover > .image4 {
+  opacity: .7;
 }
 
 .image {
