@@ -10,8 +10,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   background-color: #FBFAF8;;
   z-index: 100;
   color: #3D3A40;
@@ -140,7 +140,7 @@ body {
   width: 90%;
   font-size: 18px;
   letter-spacing: .12rem;
-  line-height: 24px;
+  line-height: 26px;
   font-weight: 300;
 }
 
@@ -203,7 +203,7 @@ body {
 .review_text {
   font-size: 18px;
   letter-spacing: .12rem;
-  line-height: 24px;
+  line-height: 26px;
   font-weight: 300;
 }
 
@@ -230,11 +230,34 @@ hr {
 
 .body_title {
   display: flex;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
   justify-content: center;
   padding-top: 50px;
+  text-align: center;
   font-size: 2em;
+  letter-spacing: .12rem;
   font-weight: 300;
+  line-height: 38px;
   color: #3D3A40;
+}
+
+.body_content_container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.body_content {
+  width: 90%;
+  font-size: 18px;
+  letter-spacing: .12rem;
+  line-height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-weight: 300;
 }
 
 .categories_container {
@@ -280,13 +303,14 @@ hr {
 .category_link_name {
   position: absolute;
   top: 50px;
-  right: 50px;
+  width: 100%;
+  text-align: center;
   color: #FBFAF8;
   font-size: 30px;
   font-weight: 400;
   text-shadow: 1px 1px #000000;
   letter-spacing: .12rem;
-  line-height: 40px;
+  line-height: 34px;
 }
 
 .categories_image {
@@ -323,10 +347,11 @@ hr {
 
 .imagesContainer {
   display: grid;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 25% 25% 25%;
   row-gap: 40px;
   column-gap: 40px;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .footer {

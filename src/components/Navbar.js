@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react' 
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -18,21 +19,22 @@ const Navbar = () => {
 
     let navClassName = 'navbar'
     let logoPresent = false;
-    if (scrollPosition >= 220) {
+    if (scrollPosition >= 188) {
         navClassName += ' sticky'
         logoPresent = true
     }
-    if (scrollPosition < 220) {
+    if (scrollPosition < 188) {
         logoPresent = false
     }
 
     return (
         <div className={navClassName}>
-            {logoPresent && <a href='localhost:3000'><img src='/images/logo_placeholder_white.png' alt='logo' className='logo_navbar' /></a>}
-            <a href="/" className='breadNav'>BREAD</a>
-            <a href="/" className='sweetNav'>SWEET</a>
-            <a href="/" className='savoryNav'>SAVORY</a>
-            <a href="/" className='aboutNav'>STORY</a>
+            {logoPresent && <Link to='/'><img src='/images/logo_placeholder_white.png' alt='logo' className='logo_navbar' /></Link>}
+            <Link to="/" className='breadNav'>HOME</Link>
+            <Link to="/bread" className='breadNav'>BREAD</Link>
+            <Link to="/sweet" className='sweetNav'>SWEET</Link>
+            <Link to="/savory" className='savoryNav'>SAVORY</Link>
+            <Link to="/story" className='aboutNav'>STORY</Link>
         </div>
     )
 }
