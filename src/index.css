@@ -452,8 +452,8 @@ hr {
   }
   
   .navbar {
-    padding: 10px;
-    font-size: .7em;
+    padding: 15px;
+    font-size: .8em;
   }
 
   .logo_navbar {
@@ -462,7 +462,7 @@ hr {
     padding: 0;
     position: absolute;
     left: 8px;
-    top: 8px;
+    top: 7px;
   }
   
   .breadNav {
@@ -509,7 +509,7 @@ hr {
     font-weight: 700;
     padding: 0;
     margin-top: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 
   .intro_container {
@@ -573,7 +573,7 @@ hr {
   }
 
   .reviews_container {
-    margin-top: 30px;
+    margin-top: 50px;
   }
   
   .reviews {
@@ -614,7 +614,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -634,9 +634,9 @@ hr {
   }
   
   .categories_links {
-    width: 100%;
     display: grid;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 120px 120px;
+    justify-content: center;
     row-gap: 2px;
     column-gap: 8px;
     margin-top: 20px;
@@ -644,6 +644,8 @@ hr {
     letter-spacing: .12rem;
     line-height: 24px;
     font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .category_link_box {
@@ -653,7 +655,7 @@ hr {
   
   .category_link_name {
     position: absolute;
-    top: 30px;
+    top: 17px;
     width: 100%;
     text-align: center;
     color: #FBFAF8;
