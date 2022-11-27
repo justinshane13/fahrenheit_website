@@ -1,26 +1,43 @@
+import React, { useState, useEffect } from 'react' 
 import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Intro from './components/Intro'
 import Body from './components/Body'
 import Footer from './components/Footer'
 import Reviews from './components/Reviews'
-import Landing from './components/Landing'
+import Hero from './components/Hero'
 import Categories from './components/Categories'
 import ScrollToTop from './components/ScrollToTop'
 import sectionData from './sectionData'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [isMobile] = useState(window.matchMedia('(max-width: 550px)').matches)
+
+  const handleScroll = () => {
+      const position = window.pageYOffset;
+      setScrollPosition(position);
+  };
+  
+  useEffect(() => {
+      window.addEventListener('scroll', handleScroll, { passive: true });
+  
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />
       <div className='App'>
         <Header />
-        <Navbar />
+        <Navbar scrollPosition={scrollPosition} isMobile={isMobile} />
         <div>
           <Switch>
             <Route exact path='/'>
-              <Landing />
+              <Hero isMobile={isMobile} />
               <Intro />
               <Reviews />
               <Categories />
