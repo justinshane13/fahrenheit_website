@@ -636,12 +636,11 @@ hr {
     background-color: #4BB8DD;
     border-radius: 20px;
     width: 90%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0px;
   }
   
   .categories_text {
-    width: 100%;
+    width: 85%;
     font-size: 18px;
     letter-spacing: .12rem;
     line-height: 26px;
