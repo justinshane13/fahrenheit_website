@@ -30,7 +30,6 @@ const Navbar = (props) => {
     return (
         <div className={navClassName}>
             {logoPresent && <Link to='/'><img src='/images/logo_placeholder_white.png' alt='logo' className='logo_navbar' /></Link>}
-            <Link to="/" className='breadNav'>HOME</Link>
             <Link to="/bread" className='breadNav'>BREAD</Link>
             <Link to="/sweet" className='sweetNav'>SWEET</Link>
             <Link to="/savory" className='savoryNav'>SAVORY</Link>
