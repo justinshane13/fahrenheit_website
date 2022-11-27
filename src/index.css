@@ -435,8 +435,9 @@ hr {
 /* Styling for mobile */
 
 @media (max-width: 600px) {
-  .body {
+  html, .body {
     min-height: 100%;
+    width: 100%;
     overflow-x: hidden;
   }
 
