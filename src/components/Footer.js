@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -16,15 +16,14 @@ const Footer = () => {
                 <div className='footer_links'>
                     <div className='footer_links1'>
                         <p className='footer_title'>Links</p>
-                        <a href='localhost:3000' className='footer_link'>Home</a>
-                        <a href='localhost:3000' className='footer_link'>Bread</a>
-                        <a href='localhost:3000' className='footer_link'>Story</a>
+                        <Link to='/' className='footer_link'>Home</Link>
+                        <Link to='/bread' className='footer_link'>Bread</Link>
+                        <Link to='/story' className='footer_link'>Story</Link>
                     </div>
                     <div className='footer_links2'>
-                        <p></p>
-                        <a href='localhost:3000' className='footer_link'>Savory</a>
-                        <a href='localhost:3000' className='footer_link'>Sweet</a>
-                        <a href='localhost:3000' className='footer_link'>Instagram</a>
+                        <Link to='/savory' className='footer_link'>Savory</Link>
+                        <Link to='/sweet' className='footer_link'>Sweet</Link>
+                        <a href='https://www.instagram.com/fahrenheitbakery_cy/' className='footer_link' target="_blank" rel='noopener noreferrer'>Instagram</a>
                     </div>
                 </div>
             </div>

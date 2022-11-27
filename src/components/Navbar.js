@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
-    
+    const [isMobile] = useState(window.matchMedia('(max-width: 550px)').matches)
+
     const handleScroll = () => {
         const position = window.pageYOffset;
         setScrollPosition(position);
@@ -19,13 +20,26 @@ const Navbar = () => {
 
     let navClassName = 'navbar'
     let logoPresent = false;
-    if (scrollPosition >= 188) {
-        navClassName += ' sticky'
-        logoPresent = true
+
+    if (isMobile) {
+        if (scrollPosition >= 124) {
+            navClassName += ' sticky'
+            logoPresent = true
+        }
+        if (scrollPosition < 125) {
+            logoPresent = false
+        }
     }
-    if (scrollPosition < 188) {
-        logoPresent = false
+    if (!isMobile) {
+        if (scrollPosition >= 188) {
+            navClassName += ' sticky'
+            logoPresent = true
+        }
+        if (scrollPosition < 188) {
+            logoPresent = false
+        }
     }
+
 
     return (
         <div className={navClassName}>
