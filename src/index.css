@@ -634,13 +634,13 @@ hr {
     margin-right: auto;
     background-color: #4BB8DD;
     border-radius: 20px;
-    width: 80%;
+    width: 90%;
     padding-top: 20px;
     padding-bottom: 20px;
   }
   
   .categories_text {
-    width: 90%;
+    width: 100%;
     font-size: 18px;
     letter-spacing: .12rem;
     line-height: 26px;
