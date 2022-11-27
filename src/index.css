@@ -436,7 +436,7 @@ hr {
 
 @media (max-width: 600px) {
   html {
-    overflow-x: hidden;
+    overflow-x: clip;
   }
   
   .body {
