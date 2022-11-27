@@ -437,7 +437,7 @@ hr {
 @media (max-width: 600px) {
   .body {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   .header {
@@ -450,7 +450,6 @@ hr {
     background-color: #FBFAF8;
     z-index: 100;
     color: #3D3A40;
-    overflow: hidden;
   }
   
   .logo {
@@ -460,7 +459,6 @@ hr {
   .navbar {
     padding: 15px;
     font-size: .75em;
-    overflow: hidden;
   }
 
   .logo_navbar {
@@ -517,7 +515,6 @@ hr {
     right: 0;
     margin-left: 20px;
     margin-right: auto;
-    overflow: hidden;
   }
   
   .slogan {
@@ -538,7 +535,6 @@ hr {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
-    overflow: hidden;
   }
   
   .intro_summary {
@@ -565,7 +561,6 @@ hr {
     flex-direction: column;
     align-items: center;
     width: 90%;
-    overflow: hidden;
   }
 
   .social_text_container {
@@ -592,7 +587,6 @@ hr {
 
   .reviews_container {
     margin-top: 50px;
-    overflow: hidden;
   }
   
   .reviews {
@@ -642,7 +636,6 @@ hr {
     width: 80%;
     padding-top: 20px;
     padding-bottom: 20px;
-    overflow: hidden;
   }
   
   .categories_text {
@@ -705,13 +698,11 @@ hr {
     font-weight: 300;
     line-height: 34px;
     color: #3D3A40;
-    overflow: hidden;
   }
   
   .body_content_container {
     margin-top: 50px;
     margin-bottom: 50px;
-    overflow: hidden;
   }
   
   .body_content {
@@ -723,7 +714,6 @@ hr {
     margin-right: auto;
     margin-bottom: 20px;
     font-weight: 300;
-    overflow: hidden;
   }
 
   .imagesContainer {
@@ -733,7 +723,6 @@ hr {
     column-gap: 20px;
     justify-content: center;
     margin-bottom: 50px;
-    overflow: hidden;
   }
 
   .footer {
@@ -749,7 +738,6 @@ hr {
     line-height: 22px;
     padding: 10px;
     width: 100%;
-    overflow: hidden;
   }
   
   .footer_title {
