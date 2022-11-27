@@ -435,14 +435,11 @@ hr {
 /* Styling for mobile */
 
 @media (max-width: 600px) {
-  html {
-    overflow-x: hidden;
-  }
-
   .body {
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
+    box-sizing: border-box;
   }
 
   .header {
