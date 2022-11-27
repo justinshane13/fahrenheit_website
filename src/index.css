@@ -435,6 +435,11 @@ hr {
 /* Styling for mobile */
 
 @media (max-width: 600px) {
+  .body {
+    min-height: 100%;
+    overflow-x: hidden;
+  }
+
   .header {
     display: flex;
     flex-direction: column;
