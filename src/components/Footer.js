@@ -19,11 +19,11 @@ const Footer = () => {
                         <div className='footer_links1'>
                             <Link to='/' className='footer_link'>Home</Link>
                             <Link to='/bread' className='footer_link'>Bread</Link>
-                            <Link to='/story' className='footer_link'>Story</Link>
+                            <Link to='/sweet' className='footer_link'>Sweet</Link>
                         </div>
                         <div className='footer_links2'>
                             <Link to='/savory' className='footer_link'>Savory</Link>
-                            <Link to='/sweet' className='footer_link'>Sweet</Link>
+                            <Link to='/story' className='footer_link'>Story</Link>
                             <a href='https://www.instagram.com/fahrenheitbakery_cy/' className='footer_link' target="_blank" rel='noopener noreferrer'>Instagram</a>
                         </div>
                     </div>
