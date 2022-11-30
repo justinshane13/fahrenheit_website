@@ -658,6 +658,10 @@ hr {
     min-width: 0px;
   }
 
+  .social_image_text {
+    top: 35%;
+  }
+
   .reviews_container {
     margin-top: 50px;
   }
