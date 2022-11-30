@@ -644,6 +644,13 @@ hr {
     line-height: 30px;
   }
 
+  .social_text > a {
+    color: #FBFAF8;
+    text-underline-offset: 5px;
+    text-decoration-color: #4BB8DD;
+    text-decoration-thickness: 1px;
+  }
+
   .social_image_container {
     position: relative;
     margin-right: auto;

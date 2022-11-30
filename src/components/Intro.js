@@ -14,10 +14,10 @@ const Intro = () => {
             <div className='social'>
                 <div className='social_text_container'>
                     <div className='social_text'>The best way to keep up with Fahrenheit Bakery is on Instagram!</div>
-                    <div className='social_text'>We share what we're baking, our weekly bread schedule, hours of operation, and more.</div>
+                    <div className='social_text'><a href='https://www.instagram.com/fahrenheitbakery_cy/' target='_blank' rel='noopener noreferrer'>Follow us</a> to see what we're baking, our weekly bread schedule, hours of operation, and more.</div>
                 </div>
                 <div className='social_image_container'>
-                    <a href='https://www.instagram.com/fahrenheitbakery_cy/' target="_blank" rel='noopener noreferrer'><img src='/images/social_media_callout.jpg' alt='fahrenheit instagram page screenshot' className='social_mockup'/><div className='social_image_text'><span className='social_image_text_inner'>Follow us on Instagram!</span></div></a>
+                    <a href='https://www.instagram.com/fahrenheitbakery_cy/' target="_blank" rel='noopener noreferrer'><img src='/images/social_media_callout.jpg' alt='fahrenheit instagram page screenshot' className='social_mockup'/><div className='social_image_text'></div></a>
                 </div>
             </div>
         </div>
