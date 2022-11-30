@@ -154,7 +154,6 @@ body {
   padding: 50px 20px 50px 20px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 40px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -195,7 +194,6 @@ body {
 .social_mockup {
   width: 100%;
   min-width: 300px;
-  border-radius: 20px;
 }
 
 .social_image_text {
@@ -210,7 +208,6 @@ body {
   background-color: #FFFFFF66;
   box-shadow: 0px 0px 8px 2px #FFFFFF99;
   font-size: 2em;
-  border-radius: 5px;
   padding: 5px;
 }
 
@@ -299,7 +296,6 @@ hr {
   background-color: #4BB8DD;
   margin-bottom: 100px;
   padding: 50px 20px 50px 20px;
-  border-radius: 40px;
   width: 90%;
 }
 
@@ -329,7 +325,6 @@ hr {
 
 .category_link_box {
   position: relative;
-  border-radius: 10px;
 }
 
 .category_link_name {
@@ -347,7 +342,6 @@ hr {
 
 .categories_image {
   width: 100%;
-  border-radius: 10px;
 }
 
 .categories_image:hover {
@@ -616,7 +610,6 @@ hr {
     margin-right: auto;
     margin-top: 50px;
     padding: 20px 0px 0px 0px;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -663,8 +656,6 @@ hr {
     margin-top: 20px;
     margin-bottom: -10px;
     min-width: 0px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
   }
 
   .social_image_text {
@@ -718,7 +709,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
     background-color: #4BB8DD;
-    border-radius: 20px;
     width: 90%;
     padding: 20px 0px;
   }
@@ -750,7 +740,6 @@ hr {
   
   .category_link_box {
     position: relative;
-    border-radius: 10px;
   }
   
   .category_link_name {
@@ -768,7 +757,6 @@ hr {
   
   .categories_image {
     width: 100%;
-    border-radius: 10px;
   }
 
   .body_title {
