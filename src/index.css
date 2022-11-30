@@ -175,6 +175,7 @@ body {
   text-shadow: 1px 1px #000000;
   margin-right: 0px;
   margin-left: 0px;
+  margin-bottom: 20px;
   letter-spacing: .12rem;
   line-height: 40px;
 }
@@ -647,15 +648,16 @@ hr {
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    width: 100%;
   }
   
   .social_mockup {
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
     min-width: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
   .social_image_text {
