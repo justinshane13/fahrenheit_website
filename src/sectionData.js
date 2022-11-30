@@ -4,27 +4,43 @@ const sectionData = [
         text: "Good bread is made with good ingredients. Great bread is made with intention.",
         images: [
         {
-            path: '/images/Savory1.png',
+            path: '/images/Bread1.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory2.png',
+            path: '/images/Bread2.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory3.png',
+            path: '/images/Bread3.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory4.png',
+            path: '/images/Bread4.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory5.png',
+            path: '/images/Bread5.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory6.png',
+            path: '/images/Bread6.jpg',
+            alt: 'fresh-baked croissants'
+        },
+        {
+            path: '/images/Bread7.jpg',
+            alt: 'fresh-baked croissants'
+        },
+        {
+            path: '/images/Bread8.jpg',
+            alt: 'fresh-baked croissants'
+        },
+        {
+            path: '/images/Bread9.jpg',
+            alt: 'fresh-baked croissants'
+        },
+        {
+            path: '/images/Bread10.jpg',
             alt: 'fresh-baked croissants'
         }
         ]
@@ -34,27 +50,47 @@ const sectionData = [
         text: "We believe a sweet treat is one of life's great pleasures. After you try one of these pastries, we think you'll agree.",
         images: [
         {
-            path: '/images/Savory1.png',
+            path: '/images/Sweet1.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory2.png',
+            path: '/images/Sweet2.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory3.png',
+            path: '/images/Sweet3.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory4.png',
+            path: '/images/Sweet4.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory5.png',
+            path: '/images/Sweet5.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory6.png',
+            path: '/images/Sweet6.jpg',
+            alt: 'fresh-baked croissants'
+        },
+        {
+            path: '/images/Sweet7.jpg',
+            alt: 'fresh-baked croissants'
+        },
+        {
+            path: '/images/Sweet8.jpg',
+            alt: 'fresh-baked croissants'
+        },
+        {
+            path: '/images/Sweet9.jpg',
+            alt: 'fresh-baked croissants'
+        },
+        {
+            path: '/images/Sweet10.jpg',
+            alt: 'fresh-baked croissants'
+        },
+        {
+            path: '/images/Sweet11.jpg',
             alt: 'fresh-baked croissants'
         }
         ]

@@ -16,13 +16,13 @@ const Categories = () => {
             </Link>
             <Link to='/sweet'>
               <div className='category_link_box box2'>
-                <img src='/images/Sweet2.png' alt='' className='categories_image image2' />
+                <img src='/images/Sweet3.jpg' alt='' className='categories_image image2' />
                 <p className='category_link_name'>sweet</p>
               </div>
             </Link>
             <Link to='/bread'>
               <div className='category_link_box box3'>
-                <img src='/images/Bread.png' alt='' className='categories_image image3' />
+                <img src='/images/Bread1.jpg' alt='' className='categories_image image3' />
                 <p className='category_link_name'>bread</p>
               </div>
             </Link>
