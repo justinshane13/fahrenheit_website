@@ -45,6 +45,7 @@ const Review = () => {
                     </div>
                 </div>
             </div>
+            <div className='reviews_link'><a href='https://www.google.com/maps/place/Fahrenheit+Bakery/@34.9130927,33.6317567,17z/data=!4m7!3m6!1s0x14e0833b14f25d2f:0xff2dd6a4a14c6ca9!8m2!3d34.9130927!4d33.6339454!9m1!1b1' target='_blank' rel='noopener noreferrer'>See more reviews</a></div>
         </div>
     )
 }

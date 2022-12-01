@@ -132,27 +132,23 @@ const sectionData = [
         content_3: "Fast-forward through many years of hard work, and in January 2022 they opened Fahrenheit Bakery in Larnaca! The people of Larnaca welcomed them with open arms and eager stomachs. The bakery is a link between their lives in San Francisco and Cyprus. When you stop by, you'll notice it is also a family affair – Maria's parents can be seen helping out on most days. Above all, they hope that everyone who stops by the bakery feels welcomed as part of the Fahrenheit family.",
         images: [
         {
-            path: '/images/Savory1.png',
+            path: '/images/Story1.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory2.png',
+            path: '/images/Story2.png',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory3.png',
+            path: '/images/Story3.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory4.png',
+            path: '/images/Story4.jpg',
             alt: 'fresh-baked croissants'
         },
         {
-            path: '/images/Savory5.png',
-            alt: 'fresh-baked croissants'
-        },
-        {
-            path: '/images/Savory6.png',
+            path: '/images/Story5.jpg',
             alt: 'fresh-baked croissants'
         }
         ]
