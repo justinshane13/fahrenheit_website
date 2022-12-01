@@ -7,7 +7,7 @@ const Intro = () => {
             <div>
                 <p className='intro_summary'>As a family-run bakery, we focus on quality. We source the best ingredients available, and stay true to the American baking methods our head baker learned while training in San Francisco.</p>
                 <p className='intro_summary'>What we bake varies from week to week, based on which ingredients are fresh, available, and in-season. We love to try new things, so stop by in-person to see what we're making this week.</p>
-                <p className='intro_summary'>Our guarantee is that every cookie, bagel, pastry, cake, and loaf of bread you try from us was prepared with the highest level of care.</p>
+                <p className='intro_summary'>Our guarantee is that <b>every</b> cookie, bagel, pastry, cake, and loaf of bread you try from us was prepared with the highest level of care.</p>
             </div>
             <img src='/images/kneading_dough.jpg' alt='baker kneading dough' className='intro_image' />
             </div>

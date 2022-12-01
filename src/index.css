@@ -870,6 +870,7 @@ hr {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    margin-left: 10px;
     width: 100%;
   }
   
@@ -881,7 +882,7 @@ hr {
     display: flex;
     flex-direction: column;
     width: 100px;
-    margin-left: 50px;
+    margin-left: 40px;
   }
 
   .footer_links_horizontal {
