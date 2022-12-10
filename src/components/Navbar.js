@@ -8,20 +8,20 @@ const Navbar = (props) => {
     let logoPresent = false;
 
     if (isMobile) {
-        if (scrollPosition >= 124) {
+        if (scrollPosition >= 111) {
             navClassName += ' sticky'
             logoPresent = true
         }
-        if (scrollPosition < 125) {
+        if (scrollPosition < 112) {
             logoPresent = false
         }
     }
     if (!isMobile) {
-        if (scrollPosition >= 188) {
+        if (scrollPosition >= 167) {
             navClassName += ' sticky'
             logoPresent = true
         }
-        if (scrollPosition < 188) {
+        if (scrollPosition < 167) {
             logoPresent = false
         }
     }
