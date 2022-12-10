@@ -4,9 +4,9 @@ const Header = () => {
     return (
         <div className='header'>
             <Link to='/'>
-                <img src='/images/logo_placeholder2.png' alt='fahrenheit logo' className='logo'/>
+                <img src='/images/logo_dark.svg' alt='fahrenheit logo' className='logo'/>
             </Link>
-            <p>Fahrenheit Bakery – Stadiou 5, Larnaca, Cyprus</p>
+            <p>Stadiou 5, Larnaca, Cyprus</p>
         </div>
     )
 }
