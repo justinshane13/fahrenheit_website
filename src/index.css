@@ -651,6 +651,7 @@ hr {
   
   .breadNav {
     margin-right: 20px;
+    margin-left: 20px;
     text-decoration: none;
     color: #FBFAF8;
   }
@@ -944,7 +945,7 @@ hr {
     text-shadow: 1px 1px #000000;
     letter-spacing: .12rem;
     line-height: 22px;
-    padding: 10px;
+    padding: 20px 10px;
     width: 100%;
   }
   
