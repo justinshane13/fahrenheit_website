@@ -437,7 +437,7 @@ hr {
 
 .footer_title {
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   font-weight: bold;
 }
 
@@ -488,7 +488,7 @@ hr {
 
 .hours_weekdays {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .hours_weekends {
